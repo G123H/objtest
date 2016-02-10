@@ -66,12 +66,12 @@
                                                     <field name="OP">MULTIPLY</field>
                                                     <value name="A">
                                                       <block type="sensor_light" id="198">
-                                                        <field name="LIGHT">LEFT</field>
+                                                        <field name="LIGHT">RIGHT</field>
                                                       </block>
                                                     </value>
                                                     <value name="B">
                                                       <block type="sensor_light" id="199">
-                                                        <field name="LIGHT">LEFT</field>
+                                                        <field name="LIGHT">RIGHT</field>
                                                       </block>
                                                     </value>
                                                   </block>
@@ -93,12 +93,12 @@
                                                         <field name="OP">MULTIPLY</field>
                                                         <value name="A">
                                                           <block type="sensor_light" id="196">
-                                                            <field name="LIGHT">RIGHT</field>
+                                                            <field name="LIGHT">LEFT</field>
                                                           </block>
                                                         </value>
                                                         <value name="B">
                                                           <block type="sensor_light" id="197">
-                                                            <field name="LIGHT">RIGHT</field>
+                                                            <field name="LIGHT">LEFT</field>
                                                           </block>
                                                         </value>
                                                       </block>
