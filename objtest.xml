@@ -9,135 +9,131 @@
     <statement name="DO">
       <block type="multimedia_stopupdate" id="3">
         <next>
-          <block type="oled_setcursor" id="55" inline="true">
-            <value name="STARTX">
-              <block type="math_number" id="56">
-                <field name="NUM">38</field>
-              </block>
-            </value>
-            <value name="STARTY">
-              <block type="math_number" id="57">
-                <field name="NUM">10</field>
-              </block>
-            </value>
+          <block type="oled_cleardisplay" id="4">
             <next>
-              <block type="oled_drawtext" id="61">
-                <field name="TEXT">I sense u</field>
+              <block type="oled_setcursor" id="5" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="6">
+                    <field name="NUM">100</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="7">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
                 <next>
-                  <block type="oled_cleardisplay" id="4">
+                  <block type="oled_drawnumber" id="8" inline="true">
+                    <value name="NUMBER">
+                      <block type="sensor_object" id="9">
+                        <field name="OBJECT">RIGHTFRONT</field>
+                      </block>
+                    </value>
                     <next>
-                      <block type="oled_setcursor" id="5" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="6">
-                            <field name="NUM">100</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="7">
-                            <field name="NUM">10</field>
-                          </block>
-                        </value>
+                      <block type="oled_drawtext" id="10">
+                        <field name="TEXT">   </field>
                         <next>
-                          <block type="oled_drawnumber" id="8" inline="true">
-                            <value name="NUMBER">
-                              <block type="sensor_object" id="9">
-                                <field name="OBJECT">RIGHTFRONT</field>
+                          <block type="oled_setcursor" id="11" inline="true">
+                            <value name="STARTX">
+                              <block type="math_number" id="12">
+                                <field name="NUM">10</field>
+                              </block>
+                            </value>
+                            <value name="STARTY">
+                              <block type="math_number" id="13">
+                                <field name="NUM">10</field>
                               </block>
                             </value>
                             <next>
-                              <block type="oled_drawtext" id="10">
-                                <field name="TEXT">   </field>
+                              <block type="oled_drawnumber" id="14" inline="true">
+                                <value name="NUMBER">
+                                  <block type="sensor_object" id="15">
+                                    <field name="OBJECT">LEFTFRONT</field>
+                                  </block>
+                                </value>
                                 <next>
-                                  <block type="oled_setcursor" id="11" inline="true">
-                                    <value name="STARTX">
-                                      <block type="math_number" id="12">
-                                        <field name="NUM">10</field>
-                                      </block>
-                                    </value>
-                                    <value name="STARTY">
-                                      <block type="math_number" id="13">
-                                        <field name="NUM">10</field>
-                                      </block>
-                                    </value>
+                                  <block type="oled_drawtext" id="16">
+                                    <field name="TEXT">   </field>
                                     <next>
-                                      <block type="oled_drawnumber" id="14" inline="true">
-                                        <value name="NUMBER">
-                                          <block type="sensor_object" id="15">
-                                            <field name="OBJECT">LEFTFRONT</field>
+                                      <block type="oled_setcursor" id="17" inline="true">
+                                        <value name="STARTX">
+                                          <block type="math_number" id="18">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <value name="STARTY">
+                                          <block type="math_number" id="19">
+                                            <field name="NUM">30</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="oled_drawtext" id="16">
-                                            <field name="TEXT">   </field>
+                                          <block type="oled_drawnumber" id="20" inline="true">
+                                            <value name="NUMBER">
+                                              <block type="sensor_object" id="21">
+                                                <field name="OBJECT">LEFTSIDE</field>
+                                              </block>
+                                            </value>
                                             <next>
-                                              <block type="oled_setcursor" id="17" inline="true">
-                                                <value name="STARTX">
-                                                  <block type="math_number" id="18">
-                                                    <field name="NUM">10</field>
-                                                  </block>
-                                                </value>
-                                                <value name="STARTY">
-                                                  <block type="math_number" id="19">
-                                                    <field name="NUM">30</field>
-                                                  </block>
-                                                </value>
+                                              <block type="oled_drawtext" id="23">
+                                                <field name="TEXT">   </field>
                                                 <next>
-                                                  <block type="oled_drawnumber" id="20" inline="true">
-                                                    <value name="NUMBER">
-                                                      <block type="sensor_object" id="21">
-                                                        <field name="OBJECT">LEFTSIDE</field>
+                                                  <block type="oled_setcursor" id="24" inline="true">
+                                                    <value name="STARTX">
+                                                      <block type="math_number" id="25">
+                                                        <field name="NUM">100</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="STARTY">
+                                                      <block type="math_number" id="26">
+                                                        <field name="NUM">30</field>
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="oled_drawtext" id="23">
-                                                        <field name="TEXT">   </field>
+                                                      <block type="oled_drawnumber" id="27" inline="true">
+                                                        <value name="NUMBER">
+                                                          <block type="sensor_object" id="28">
+                                                            <field name="OBJECT">RIGHTSIDE</field>
+                                                          </block>
+                                                        </value>
                                                         <next>
-                                                          <block type="oled_setcursor" id="24" inline="true">
-                                                            <value name="STARTX">
-                                                              <block type="math_number" id="25">
-                                                                <field name="NUM">100</field>
-                                                              </block>
-                                                            </value>
-                                                            <value name="STARTY">
-                                                              <block type="math_number" id="26">
-                                                                <field name="NUM">30</field>
-                                                              </block>
-                                                            </value>
+                                                          <block type="oled_drawtext" id="31">
+                                                            <field name="TEXT">   </field>
                                                             <next>
-                                                              <block type="oled_drawnumber" id="27" inline="true">
-                                                                <value name="NUMBER">
-                                                                  <block type="sensor_object" id="28">
-                                                                    <field name="OBJECT">RIGHTSIDE</field>
+                                                              <block type="oled_setcursor" id="33" inline="true">
+                                                                <value name="STARTX">
+                                                                  <block type="math_number" id="34">
+                                                                    <field name="NUM">58</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="STARTY">
+                                                                  <block type="math_number" id="35">
+                                                                    <field name="NUM">50</field>
                                                                   </block>
                                                                 </value>
                                                                 <next>
-                                                                  <block type="oled_drawtext" id="31">
-                                                                    <field name="TEXT">   </field>
+                                                                  <block type="oled_drawnumber" id="29" inline="true">
+                                                                    <value name="NUMBER">
+                                                                      <block type="sensor_object" id="30">
+                                                                        <field name="OBJECT">REAR</field>
+                                                                      </block>
+                                                                    </value>
                                                                     <next>
-                                                                      <block type="oled_setcursor" id="33" inline="true">
-                                                                        <value name="STARTX">
-                                                                          <block type="math_number" id="34">
-                                                                            <field name="NUM">58</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="STARTY">
-                                                                          <block type="math_number" id="35">
-                                                                            <field name="NUM">50</field>
-                                                                          </block>
-                                                                        </value>
+                                                                      <block type="oled_drawtext" id="32">
+                                                                        <field name="TEXT"></field>
                                                                         <next>
-                                                                          <block type="oled_drawnumber" id="29" inline="true">
-                                                                            <value name="NUMBER">
-                                                                              <block type="sensor_object" id="30">
-                                                                                <field name="OBJECT">REAR</field>
-                                                                              </block>
-                                                                            </value>
+                                                                          <block type="multimedia_doupdate" id="22">
                                                                             <next>
-                                                                              <block type="oled_drawtext" id="32">
-                                                                                <field name="TEXT"></field>
-                                                                                <next>
-                                                                                  <block type="multimedia_doupdate" id="22"></block>
-                                                                                </next>
+                                                                              <block type="movement_setmotors" id="71" inline="true">
+                                                                                <value name="BOTHMOVLEFT">
+                                                                                  <block type="sensor_object" id="73">
+                                                                                    <field name="OBJECT">LEFTFRONT</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="BOTHMOVRIGHT">
+                                                                                  <block type="sensor_object" id="72">
+                                                                                    <field name="OBJECT">RIGHTFRONT</field>
+                                                                                  </block>
+                                                                                </value>
                                                                               </block>
                                                                             </next>
                                                                           </block>
