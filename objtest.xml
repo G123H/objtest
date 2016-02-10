@@ -119,7 +119,7 @@
                                                                     </value>
                                                                     <next>
                                                                       <block type="oled_drawtext" id="32">
-                                                                        <field name="TEXT">   </field>
+                                                                        <field name="TEXT"></field>
                                                                         <next>
                                                                           <block type="multimedia_doupdate" id="22"></block>
                                                                         </next>
